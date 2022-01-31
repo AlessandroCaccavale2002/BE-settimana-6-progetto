@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="Bancomat">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WebContent/WEB-INF/classes" source-path="/src/main/java"/>
+                
+        <property name="context-root" value="bancomat"/>
+                
+        <property name="java-output-path" value="/Bancomat/WebContent/WEB-INF/classes"/>
+            
+    </wb-module>
+    
+</project-modules>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Pagina Iniziale</title>
+</head>
+<body>
+<h1>Sito della TUA banca</h1>
+
+<form  method="post" action="conto">
+
+			<label for="id">ID Conto:</label>
+			<input type="number" name="id"><br>
+			Importo:<input type="number" name="importo"><br>
+			
+		<label for="banca">Operazione</label>
+		<select name="tipomovimento" id="banca">
+		  <option value="preleva">Preleva da Conto</option>
+		  <option value="deposita">Deposita nel Conto</option>
+		  	<option value="saldo">Saldo del Conto</option>
+		</select>
+		  		
+		  			<input class="cod" type="submit" value="invia">
+		</form>
+		<hr>
+		<br>
+		<a href="index.html">Reset Page</a>
+		
+		
+</body>
+
+</html>
+		  		
